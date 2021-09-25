@@ -140,4 +140,5 @@ c=3
 for i in As:
     tk.Button(win2,text=i+'\n'+str(As[i])+"\n ",bg='light green',width=6,command=lambda rr=i:file(rr)).grid(row=9,column=c)
     c+=1
+    
 win.mainloop()
