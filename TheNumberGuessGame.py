@@ -25,6 +25,7 @@ def guess(d,l):
                   guess(d,l)
             else:
                   print("Better Luck next time")
+print("ENTER THE NUMBER WHICH HAS NO DUPLICATE DIGITS")
 origin=int(input('Player one: Enter your 4 digit number: '))
 copy=origin
 d=dict()
